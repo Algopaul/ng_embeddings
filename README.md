@@ -4,7 +4,7 @@ In this Notebook, we use Neural Galerkin schemes to solve the inviscid Burgers' 
 
 The inviscid Burgers' equation is given by
 ```math
-\partial_t u = x
+\partial_t \mathbf{u} = x
 ```
 $\partial_t \mathbf{u} + \partial_x \mathbf{u} \cdot \mathbf{u} = 0, \quad \mathbf{u}(0, x) = \mathbf{u}_0(x).$
 It is a nonlinear partial differential equation (PDE), which we aim to solve in the 1-dimensional spatial domain $\mathcal{X} = [-1, 1)$ with periodic boundary conditions for times $\mathcal{T} = [0, 1]$.
