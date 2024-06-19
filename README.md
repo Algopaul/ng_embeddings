@@ -8,10 +8,10 @@ The inviscid Burgers' equation is given by
 ```
 It is a nonlinear partial differential equation (PDE), which we aim to solve in the 1-dimensional spatial domain $\mathcal{X} = [-1, 1)$ with periodic boundary conditions for times $\mathcal{T} = [0, 1]$.
 Here, we are interested in so-called *conserved quantities*. These are quantities of the solution that do not change over time. As an example, the integral
-\begin{equation}
+```math
 I(\mathbf{u}(t, \cdot)) = \int_{-1}^{1}\mathbf{u}(t, x) \mathrm{d}x
 \tag{2}
-\end{equation}
+```
 of the solution to the inviscid Burgers' equation is such a conserved quantity. That is $I(\mathbf{u}(t, \cdot)) = I(\mathbf{u}(0, \cdot))$ for
 all $t \in [0, 1]$.
 
