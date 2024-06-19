@@ -3,8 +3,7 @@
 In this Notebook, we use Neural Galerkin schemes to solve the inviscid Burgers' equation. We demonstrate that Neural Galerkin schemes with embeddings can be used to ensure that certain quantities of the solution are conserved over time to machine precision.
 
 The inviscid Burgers' equation is given by
-$$\partial_t \mathbf{u} + \partial_x \mathbf{u} \cdot \mathbf{u} = 0, \quad \mathbf{u}(0, x) = \mathbf{u}_0(x).
-\tag{1}$$
+$\partial_t \mathbf{u} + \partial_x \mathbf{u} \cdot \mathbf{u} = 0, \quad \mathbf{u}(0, x) = \mathbf{u}_0(x).$
 It is a nonlinear partial differential equation (PDE), which we aim to solve in the 1-dimensional spatial domain $\mathcal{X} = [-1, 1)$ with periodic boundary conditions for times $\mathcal{T} = [0, 1]$.
 Here, we are interested in so-called *conserved quantities*. These are quantities of the solution that do not change over time. As an example, the integral
 \begin{equation}
